@@ -22,6 +22,9 @@
             border-radius: 5px;
         }
 
+         ul li {
+            margin: 10px;  /*separa linhas*/
+        }
 
         ul li a {
             color: white;
