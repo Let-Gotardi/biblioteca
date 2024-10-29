@@ -1,0 +1,39 @@
+        body {
+            background-color: #cbecf6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+    
+        h1 {
+            color: #3f3ccf;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            background-color: #215088;
+            color: white;
+            list-style-type:none; /*tirar bolinha */
+            padding: 10px;
+            width: 50%;
+            border-radius: 5px;
+        }
+
+
+        ul li a {
+            color: white;
+            text-decoration: none; /* tira linha link */
+            display: block;
+            padding: 10px 15px;
+            background-color: #1c3e6e;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 80px; 
+            height: auto;
+            margin-bottom: 20px;
+        }

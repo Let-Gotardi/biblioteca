@@ -1,0 +1,57 @@
+body {
+    background-color: #cbecf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #3f3ccf;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #1c3e6e;
+    text-decoration: none; /* tira linha link */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    background-color: #f7f9fc;
+    border: 2px solid #215088;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+    color: #215088;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 2px solid #215088;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; /* Garante que o padding não ultrapasse os limites */
+}
+
+input[type="submit"] {
+    background-color: #215088;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+main {
+    margin-top: 20px;
+}

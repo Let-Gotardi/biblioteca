@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca - Home</title>
+    <link rel="stylesheet" href="homecss.css">
+</head>
+
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9043/9043296.png">
+
+<body>
+    <h1>Bem-vindo à Biblioteca</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/9043/9043296.png" alt="Biblioteca">
+    <ul>
+        <li><a href="biblioteca_cliente.html">Cadastro de Clientes</a></li>
+        <li><a href="biblioteca_usuario.html">Cadastro de Usuários</a></li>
+        <li><a href="biblioteca_livros.html">Cadastro de Livros</a></li>
+        <li><a href="biblioteca_emprestimos.html">Cadastro de Empréstimos</a></li>
+        <li><a href="biblioteca_login.html">Login do Bibliotecário</a></li>
+        <li><a href="biblioteca_devolucao.html">Devolução</a></li>
+        <li><a href="biblioteca_consulta.php">Consulta Emprestimos</a></li>
+        <li><a href="biblioteca_consulta2.php">Consulta Livros</a></li>
+        <li><a href="biblioteca_sobre.html">Sobre a Biblioteca</a></li>
+        
+    </ul>
+    <main>
+        <p>Escolha uma opção no menu para começar.</p>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
